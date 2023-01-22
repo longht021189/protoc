@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package sample;
+
+option go_package = "github.com/longht021189/protoc/plugins/sample/proto;sample";
+
+message SampleData {
+    string id = 1;
+}
